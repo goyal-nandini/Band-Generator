@@ -1,0 +1,13 @@
+</main>
+
+<footer>
+  <%# Step 4 - Add a dynamic year to the footer using JS. %>
+   <% const year = new Date(); %>
+  <%# <p>Copyright © 200X</p> %>
+  <p>Copyright © <%= year.getFullYear(); %> </p>
+  <!-- The <%= %> tags are used to output the result of the JavaScript expression 
+   year.getFullYear(). -->
+</footer>
+</body>
+
+</html>
